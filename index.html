@@ -1,0 +1,16 @@
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:ipp="">
+  <head><meta http-equiv="Content-Type"
+             content="text/html; charset=ISO-8859-1">
+     <title>My Connect Page</title>
+     <pre>Welcome to apps.  Please authenticate to continue</pre>
+     <script type="text/javascript" src="https://appcenter.intuit.com/Content/IA/intuit.ipp.anywhere.js">
+        </script>
+     <script>intuit.ipp.anywhere.setup({
+          menuProxy: '',
+          grantUrl: 'http://app.example.com/request'});
+     </script>
+   </head>
+   <body>
+       <ipp:connectToIntuit></ipp:connectToIntuit>
+   </body>
+</html>
